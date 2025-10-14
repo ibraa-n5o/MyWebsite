@@ -46,10 +46,9 @@ a{
   padding-right: 20px;
   border-radius: 30px;
 }
-.container-content {
+.img-content {
   width:90%;
   opacity: 0.4;
-  justify-items: center;
     
 }
 .a-content {
