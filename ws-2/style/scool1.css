@@ -6,7 +6,7 @@ html {
 }
 body{
   display: grid;
-  grid-template-rows: 50px 1fr 50px;
+  grid-template-rows: 1fr 20fr 1fr;
   height: auto;
 }
 a,h2{
@@ -15,7 +15,7 @@ a,h2{
 }
 .a-navbar{
   color: white;
-  font-size: 15px;
+  font-size: 15;
 }
 h2{
   font-size: 12px;
@@ -45,7 +45,7 @@ h2{
   align-items: center;
 }
 .img-content {
-  width: 100%;
+  width: auto;
   opacity: 0.7;
 }
 .container-footer {
