@@ -4,61 +4,52 @@ html {
   Padding:0;
     
 }
-body{
-  display: grid;
-  grid-template-rows: 50px 10fr 1fr;
-  height: auto;
-}
-.ul-navbar {
-  display:flex;
-  background-color:#333;
-  justify-content:center;
-  align-items:center;
-}
-.li-navbar {
-  margin:10px;
-  padding:10px;
-  list-style-type: none;
-  text-decoration:none;
-}
 p,a,li{
   font-family: roboto;
-  font-size: 15px;
+  font-size: 12px;
 }
 a{
   text-decoration: none;
   color: white;
 
 }
+body{
+  display: grid;
+  grid-template-rows: 50px 10fr 1fr;
+}
+.container-navbar{
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a-navbar{
+  font-size: 14px;
+}
+.li-navbar {
+  margin:10px;
+  padding:10px;
+  list-style-type: none;
+  text-decoration:none;
+  
+}
 .li-navbar:hover {
   /*opacity:0.7;*/
-  background-color: rgba(236, 125, 82, 0.867);
+  background-color: rgba(192, 192, 192, 0.292);
   transition: 1s case-in-out;
   border-radius: 5px;
 }
-.p-home{
-  font-size: 50;
-  font-weight: bold;
-  background-color: grey;
-  color:white;
-  padding: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 30px;
-}
+
 .container-content {
   justify-content:center;
   align-items:center;
   display: flex;
-  height:100%;
     
 }
 .img-mtsn{
   width: 280px;
-  border:solid;
   border-radius: 30px; 
   margin-right:20px;
-  border-width: 10px;
   border-color: white;
   box-shadow: 2px 1px 15px rgba(0,0,0,0.5);
 }
@@ -80,18 +71,33 @@ a{
   width:180px;
   padding:px;
 }
-.p-a-content{
+.p-content{
   margin-top: 10px;
   font-size: 8px;
   font-weight:bold;
 }
 .container-footer {
-  justify-content:center;
-  align-items:center;
-  display:flex;
   background-color: #333;
-}
-.li-footer {
   color:white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+    .li-footer,.ul-footer{
+      font-size: 12;
+      list-style-type: none;
+    }
+.p-footer{
+  font-weight: bold;
+  margin-bottom:5px;
+}
+.ul-footer{
+  display: flex;
+  flex-direction: row;
+}
+.li-footer{
+  padding: 5px;
 }
 

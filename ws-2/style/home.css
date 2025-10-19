@@ -7,7 +7,6 @@ html {
 body{
   display: grid;
   grid-template-rows:50px 10fr 1fr;
-  height: auto;
 }
 a,ul,li,p{
   font-family: roboto;
@@ -45,8 +44,9 @@ a,ul,li,p{
   align-items: center;
 }
 .img-content {
-  width: 90%;
+  width: 80%;
   opacity: 0.3;
+  object-fit:cover;
 }
 .container-footer {
   background-color: #333;
@@ -55,11 +55,15 @@ a,ul,li,p{
   justify-content: center;
   display: flex;
   flex-direction: column;
+  padding-top: 10px;
 }
     .li-footer,.ul-footer{
-      font-size: 12;
       list-style-type: none;
     }
+.p-footer{
+  font-weight: bold;
+  margin-bottom:5px;
+}
 .ul-footer{
   display: flex;
   flex-direction: row;
