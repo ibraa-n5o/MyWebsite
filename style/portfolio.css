@@ -20,6 +20,9 @@ body {
     top: 0;
     z-index: 1000;
 }
+.navbar p{
+    border:solid;
+}
 
 .nav-brand {
     font-size: 1.5rem;
