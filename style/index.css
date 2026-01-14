@@ -151,10 +151,6 @@ body {
 #contact p {
     padding: 0 2.2rem;
 }
-.imgs-contact{
-    display:flex;
-    
-}
 .contact-icon {
     width: 1rem;
     vertical-align: middle;
